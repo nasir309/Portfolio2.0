@@ -1,0 +1,137 @@
+
+
+h1{
+color: hsl(0, 87%, 3%); 
+ text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 20px}
+
+h2{color: #222020;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+h3{
+  color: #000;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+body{
+  background-image:url(vivo2.0.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+}
+body::before{
+  background-color: black;
+  z-index: 9999;
+  position: absolute;
+
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    color: black;
+}
+ul{color: #222020;
+
+}
+.grid-container {
+    grid-template-areas: none;   
+}
+h4{color: #000;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+p{
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  text-decoration: none;
+  display: block;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgb(89, 90, 92);
+  height: 120px;
+  
+  
+}
+nav ul li{
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+nav ul li a{
+  color: #e9dede;
+  display: inline-flex;
+  justify-content: space-between;
+  text-decoration: none;
+  position: absolute;
+
+}
+p{
+  color: #07092c;
+  position: static;
+}
+h5{font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+nav li{
+  display: block;
+  list-style: none;
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: #0c0311;
+  
+}
+.p1{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+}
+.p2{
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+.logo{
+  width: 60px;
+  height: 60px;
+
+
+}
+h6{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: larger;
+  display: block;
+  text-align: center;
+}
+
+.nav-footer {
+  text-decoration: none;
+  display: block;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgb(89, 90, 92);
+  height: 120px;
+}
+  .main-content{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 500px;
+
+  }
+  img{
+    border-radius: 50%;
+    border:silver ;
+  }
