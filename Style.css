@@ -57,7 +57,7 @@ p{
   display: block;
   justify-content: space-between;
   position: relative;
-  background-color: rgb(89, 90, 92);
+  background-color: rgb(67, 71, 68);
   height: 120px;
   
   
@@ -109,8 +109,8 @@ nav li{
   
 }
 .logo{
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 
 
 }
@@ -126,7 +126,7 @@ h6{
   display: block;
   justify-content: space-between;
   position: relative;
-  background-color: rgb(89, 90, 92);
+  background-color: rgb(88, 89, 92);
   height: 120px;
 }
   .nav-footer a:hover{
@@ -139,6 +139,6 @@ h6{
 
   }
   img{
-    border-radius: 30%
+    border-radius: 50%
     border:silver ;
   }
