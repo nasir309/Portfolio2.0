@@ -1,144 +1,70 @@
-
-
-h1{
-color: hsl(0, 87%, 3%); 
- text-align: center;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-size: 20px}
-
-h2{color: #222020;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  padding: 10px;
-}
-h3{
-  color: #000;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
+*{
+  margin: 0px;
+  padding: 0px;
 }
 body{
-  background-image:url(vivo2.0.jpg) ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
- 
+  background-color: #F6D7AC;
 }
-body::before{
-  background-color: black;
-  z-index: 9999;
-  position: absolute;
-
+.navbar{
+  padding: 20px;
+  margin: 20px;
 }
-ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    color: black;
-}
-ul{color: #222020;
-
-}
-.grid-container {
-    grid-template-areas: none;   
-}
-h4{color: #000;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-}
-p{
-  font-size: 20pt;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.navbar {
-  text-decoration: none;
-  display: block;
-  justify-content: space-between;
-  position: relative;
-  background-color: rgb(67, 71, 68);
-  height: 120px;
-  
-  
-}
-nav ul li{
+.navbar ul{
   display: flex;
-  justify-content: space-around;
-  padding-bottom: 15px;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  float: right;
+  list-style: none;
+  gap: 30px;
+}
+.navbar a{
+     text-decoration: none;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: 1.3rem;
+     color: #O8243A;
 }
 .navbar a:hover{
-     background-color: #e9dede;
+      background-color: beige;
+      margin: 8px;
+      padding: 8px;
+      border-radius: 50%;
 }
-
-nav ul li a{
-  color: #080303;
-  display: inline-flex;
-  justify-content: space-between;
-  text-decoration: none;
-  position: absolute;
-
+h1{
+  text-align: center;
+  font-family: cursive;
+  font-size: 2.0rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #D01820;
+}
+h2{
+  text-align: center;
+  font-family: cursive;
+  font-size: 2.0rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #00509d;
 }
 p{
-  color: #07092c;
-  position: static;
-}
-h5{font-size: medium;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2.0rem;
+  padding: 30px;
+  margin: 30px;
 }
-nav li{
-  display: block;
+.navbar2{
+  padding: 30px;
+  margin: 10px;
   list-style: none;
-  padding: 10px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
-  color: #0c0311;
-  
-}
-.p1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: cursive;
+  font-size: 1.5rem;
   text-align: center;
 }
-.p2{
-  text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-}
-.logo{
-  width: 80px;
-  height: 80px;
+img{
 
-
+  border-radius: 100%;
 }
-h6{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: larger;
-  display: block;
+main{
   text-align: center;
 }
-
-.nav-footer {
-  text-decoration: none;
-  display: block;
-  justify-content: space-between;
-  position: relative;
-  background-color: rgb(88, 89, 92);
-  height: 120px;
+@media screen {
+  max-width: 600PX;
 }
-  .nav-footer a:hover{
-     background-color: aliceblue;
-  }
-  .main-content{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 500px;
-
-  }
-  img{
-    border-radius: 50%
-    border:silver ;
-  }
