@@ -52,10 +52,10 @@ h3{
 p{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.0rem;
-  padding: 30px;
-  margin: 30px;
+  padding: 10px;
+  margin: 10px;
   color: #000;
-  float: left;
+  text-align: left;
 }
 .hero{
   color: #000;
@@ -111,6 +111,7 @@ button{
 }
 img{
   border-radius: 50%;
+  float: right;
 }@media (max-width: 768px) {
   .navbar ul {
     flex-direction: column;
