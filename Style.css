@@ -3,7 +3,7 @@
   padding: 0px;
 }
 body{
-  background-color: #ffffff;
+  background-color: #f5f5dc;
 }
 .navbar{
   padding: 20px;
@@ -17,69 +17,68 @@ body{
 }
 .navbar a{
      text-decoration: none;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-family: "Georgia", serif;
      font-size: 1.3rem;
-     color: #000
+     color: #333333
 }
 .navbar a:hover{
       background-color: beige;
       margin: 8px;
       padding: 8px;
-      border-radius: 50%;
 }
 h1{
   float: left;
   padding: 20px;
   margin: 20px;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.0rem;
 }
 h2{
   text-align: center;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.0rem;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #00509d;
+  color: #800020;
 }
 h3{
   padding: 20px;
   margin: 20px;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.0rem;
   text-align: left;
 }
 p{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Georgia", serif;
   font-size: 2.0rem;
   padding: 10px;
   margin: 10px;
-  color: #000;
+  color: #333333;
   text-align: left;
 }
 .hero{
-  color: #000;
+  color: #333333;
   padding: 20px;
   margin: 20px;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.0rem;
   text-align: center;
 }
 .navbar2{
   list-style: none;
   text-align: center;
-  font-family: cursive;
+  font-family: "Times New Roman", Times, serif;
   font-size: 1.3rem;
 }
 .Contact{
-  padding: 20px;
+  padding: 15px;
   margin: 20px;
-  font-family: cursive;
+  margin-bottom: 15px;
+  font-family: "Times New Roman", Times, serif;
   font-size: 2.0rem;
   text-align: left;
   list-style: none;
-  box-shadow: 0 0 10px #000;
-  border-radius: 10px;
+  border: 1px solid #cccccc;
   width: 70%;
 }
 main{
@@ -90,27 +89,25 @@ main{
 
 input[type="submit"]{
   padding: 10px 20px;
-  background-color: #00509d;
+  background-color: #800020;
   color: #fff;
   border: none;
-  border-radius: 5px;
   font-size: 1.2rem;
   cursor: pointer;
   margin-top: 20px;
 }
 button{
   padding: 10px 20px;
-  background-color: #00509d;
+  background-color: #800020;
   color: #fff;
   border: none;
-  border-radius: 5px;
   font-size: 1.2rem;
   cursor: pointer;
   padding: 20px;
   margin: 20px;
 }
 img{
-  border-radius: 50%;
+  border: 1px solid #333333;
   float: right;
 }@media (max-width: 768px) {
   .navbar ul {
