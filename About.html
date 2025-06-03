@@ -9,17 +9,19 @@
 </head>
 
 <body>
-
-  <nav class="navbar">
-    <header>
+  <header>
+    <nav class="navbar">
+      <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <ul>
-
         <li><a href="#">About</a></li>
         <li><a href="index.html">Home</a></li>
         <li><a href="Contact.html">Contact</a></li>
-
       </ul>
-  </nav>
+    </nav>
   </header>
   <h2>MY STORY</h2>
 
@@ -44,10 +46,17 @@
     excel in the tech industry. I have also completed various online courses and certifications to further enhance my
     expertise in specific areas of software development.
   </p>
+  <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navUl = document.querySelector('.navbar ul');
+
+    hamburgerMenu.addEventListener('click', () => {
+      navUl.classList.toggle('nav-active');
+    });
+  </script>
+  <footer>
+    <p>&copy; 2025 Nasir. All rights reserved.</p>
+  </footer>
 </body>
-<footer>
-  <p>&copy; 2025 Nasir. All rights reserved.</p>
-  
-</footer>
 
 </html>
