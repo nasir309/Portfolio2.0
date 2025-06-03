@@ -10,42 +10,53 @@
 </head>
 
 <body>
-  <nav class="navbar">
-    <header>
+  <header>
+    <nav class="navbar">
+      <div class="hamburger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <ul>
-
         <li><a href="index.html">Home</a></li>
         <li><a href="About.html">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
-    </header>
-    <main>
-      <section>
-        <div class="Contact">
-          <li><a href=""><i class="fa-solid fa-envelope"></i></a> EMAIL <br> nasir@gmail.com </li>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div class="Contact">
+        <li><a href=""><i class="fa-solid fa-envelope"></i></a> EMAIL <br> nasir@gmail.com </li>
+      </div>
+      <div class="Contact">
+        <li><a href=""><i class="fa-solid fa-phone"></i></a> PHONE <br> +254 77 123 4567</li>
+      </div>
+      <div class="Contact">
+        <li><a href=""><i class="fa-solid fa-location-dot"></i></a> LOCATION <br> Nairobi, Kenya</li>
+      </div>
+      <div class="Contact">
+        <li><a href=""><i class="fa-solid fa-linkedin"></i></a> LINKEDIN <br> Nasir</li>
+      </div>
+      <div class="Contact">
+        <li><a href=""><i class="fa-brands fa-github"></i></a> GITHUB <br> Nasir</li>
+      </div>
+      <div class="Contact">
+        <li><a href=""><i class="fa-brands fa-twitter"></i></a> TWITTER <br> Nasir</li>
+      </div>
+    </section>
+  </main>
+  <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navUl = document.querySelector('.navbar ul');
 
-        </div>
-        <div class="Contact">
-          <li><a href=""><i class="fa-solid fa-phone"></i></i></a> PHONE <br> +254 77 123 4567</li>
-        </div>
-        <div class="Contact">
-          <li><a href=""><i class="fa-solid fa-location-dot"></i></a> LOCATION <br> Nairobi, Kenya</li>
-        </div>
-        <div class="Contact">
-          <li><a href=""><i class="fa-solid fa-linkedin"></i></a> LINKEDIN <br> Nasir</li>
-        </div>
-        <div class="Contact">
-          <li><a href=""><i class="fa-brands fa-github"></i></a> GITHUB <br> Nasir</li>
-        </div>
-        <div class="Contact">
-          <li><a href=""><i class="fa-brands fa-twitter"></i></a> TWITTER <br> Nasir</li>
-      </section>
-    </main>
-
+    hamburgerMenu.addEventListener('click', () => {
+      navUl.classList.toggle('nav-active');
+    });
+  </script>
+  <footer>
+    <p>&copy; 2025 Nasir. All rights reserved.</p>
+  </footer>
 </body>
-<footer>
-  
-  <p>&copy; 2025 Nasir. All rights reserved.</p>
-</footer>
 
 </html>
