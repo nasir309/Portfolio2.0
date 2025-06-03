@@ -12,6 +12,11 @@
 <body>
 
   <nav class="navbar">
+    <div class="hamburger-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
     <ul>
    
       <li><a href="#">Home</a></li>
@@ -21,15 +26,25 @@
   </nav>
   <header>
     <section class="hero">
-      <h1>Hi, I'm Nasir</h1> <br>
-      <br>
-      <h3>I am a Software Developer</h3>
-      <p>I craft elegant, efficient, and user-centric web applications <br> with modern technologies. Passionate about 
-        solving complex  <br> problems and delivering high-quality software solutions.</p>
+      <div class="hero-text-content">
+        <h1>Hi, I'm Nasir</h1> <br>
+        <br>
+        <h3>I am a Software Developer</h3>
+        <p>I craft elegant, efficient, and user-centric web applications <br> with modern technologies. Passionate about
+          solving complex  <br> problems and delivering high-quality software solutions.</p>
+      </div>
       <img src="ccn.webp" alt="" width="300px" height="300px" class="img1">
     </section>
     <a href="Contact.html"> <button>Contact me</button></a>
 
+  <script>
+    const hamburgerMenu = document.querySelector('.hamburger-menu');
+    const navList = document.querySelector('.navbar ul');
+
+    hamburgerMenu.addEventListener('click', () => {
+      navList.classList.toggle('nav-active');
+    });
+  </script>
 </body>
     <footer class="footer">
       <p>&copy; 2025 Nasir. All rights reserved.</p>
