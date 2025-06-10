@@ -78,6 +78,7 @@ p{
   height: auto; /* Maintain aspect ratio */
   border: 1px solid #333333;
   margin: 20px; /* Add margin if it was removed from general img styling */
+  border-radius: 50%;
 }
 
 .navbar2{
